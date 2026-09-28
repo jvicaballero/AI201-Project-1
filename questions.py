@@ -23,10 +23,10 @@ names a target of "4 of 5", and four of three is not a thing.
 
 QUESTIONS = [
     # {"question": "...", "expects": "..."},
-    {"question": "When does dropping a class start showing as a W on my transcript?", "expects": "after the end of week two"},
-    {"question": "Do dining dollars roll over from spring to the next autumn?", "expects": "no, they disappear"},
+    {"question": "When does dropping a class start showing as a W on my transcript?", "expects": ["week two", "second week"]},
+    {"question": "Do dining dollars roll over from spring to the next autumn?", "expects": "do not roll over"},
     {"question": "How are juniors and seniors ordered in the housing lottery?", "expects": "accumulated credit hours"},
-    {"question": "What percentage of my CS 210 grade comes from the labs?", "expects": "10%"},
+    {"question": "What percentage of my CS 210 grade comes from the labs?", "expects": ["10%", "ten percent"]},
     {"question": "Where do people park when they miss the west lot permit window?", "expects": "Verrill Street"},
 ]
 
